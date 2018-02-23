@@ -1,0 +1,19 @@
+//
+//  CaiMaoCaiPiaoNew.pch
+//  CaiMaoCaiPiaoNew
+//
+//  Created by Jay on 2017/8/23.
+//  Copyright © 2017年 CM. All rights reserved.
+//
+
+#ifndef CaiMaoCaiPiaoNew_pch
+#define CaiMaoCaiPiaoNew_pch
+
+#endif /* CaiMaoCaiPiaoNew_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "CMGlobalDefinition.h"
+
+#endif

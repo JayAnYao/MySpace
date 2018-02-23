@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Theme" representedClassName="Theme" syncable="YES" codeGenerationType="class">
+        <attribute name="themeBackgroundColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeBackgroundImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeNavigationBarColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeNavigationBarImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeNavigationBarTitleColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeNavigationBarTitleFont" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="themeTabBarColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeTabBarImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeTabBarItemNameNormalColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeTabBarItemNameSelectedColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeTabBarItemNormalImages" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="themeTabBarItemSelectedImages" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Theme" positionX="-18" positionY="27" width="128" height="240"/>
+    </elements>
+</model>

@@ -1,0 +1,6 @@
+framework module Pods_CaiMaoCaiPiaoNew {
+  umbrella header "Pods-CaiMaoCaiPiaoNew-umbrella.h"
+
+  export *
+  module * { export * }
+}

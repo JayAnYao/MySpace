@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CaiMao.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>116E87EE8070CC8B733146A5626B6D33CEEECE0B</string>
+				<key>dateExpires</key>
+				<string>2018/8/14</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>RBVB374UXX.com.fcaimao.lottery.CaiMaoCaiPiao</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>RBVB374UXX</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>CaiMao.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>cbb64d7b-2b6f-4785-a92d-af3b6ed2e9fe</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.fcaimao.lottery.CaiMaoCaiPiao</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>RBVB374UXX</string>
+				<key>name</key>
+				<string>Shanghai Zhongcai Network Technology Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
