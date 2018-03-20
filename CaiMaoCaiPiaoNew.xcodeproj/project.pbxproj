@@ -114,7 +114,6 @@
 		6983E26E1F4D1FDB00E4BBC4 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		69855B961F4FCAE0008289E8 /* libUMessage_Sdk_1.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.5.0.a; sourceTree = "<group>"; };
 		69855B971F4FCAE0008289E8 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
-		69855B991F4FCB19008289E8 /* CaiMaoCaiPiaoNew.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaiMaoCaiPiaoNew.entitlements; sourceTree = "<group>"; };
 		69855B9A1F4FCB71008289E8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		699960C11F4A7A430018133D /* CMHomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMHomePageController.swift; sourceTree = "<group>"; };
 		699960CA1F4AA9330018133D /* CMThemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMThemeModel.swift; sourceTree = "<group>"; };
@@ -351,7 +350,6 @@
 		695B86231F417F8C0071E46D /* CaiMaoCaiPiaoNew */ = {
 			isa = PBXGroup;
 			children = (
-				69855B991F4FCB19008289E8 /* CaiMaoCaiPiaoNew.entitlements */,
 				699960CE1F4AB3AE0018133D /* Setting */,
 				699960C31F4A832B0018133D /* Tools */,
 				6934D57A1F427E660052E927 /* BaseFile */,
@@ -588,7 +586,7 @@
 				TargetAttributes = {
 					695B86201F417F8C0071E46D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = RBVB374UXX;
+						DevelopmentTeam = 26JGF54JH3;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -934,12 +932,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB7FE5AA34A14FB0C0692A57 /* Pods-CaiMaoCaiPiaoNew.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = CaiMaoCaiPiaoNew/CaiMaoCaiPiaoNew.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RBVB374UXX;
+				DEVELOPMENT_TEAM = 26JGF54JH3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
@@ -968,7 +965,7 @@
 					"-framework",
 					"\"MBProgressHUD\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fcaimao.CaiMaoCaiPiaoNew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CaiMaoCaiPiaoNew/BaseFile/CaiMaoCaiPiaoNew-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -980,12 +977,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F74F236C5A62EBF0BDF31F1 /* Pods-CaiMaoCaiPiaoNew.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = CaiMaoCaiPiaoNew/CaiMaoCaiPiaoNew.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RBVB374UXX;
+				DEVELOPMENT_TEAM = 26JGF54JH3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
@@ -1014,7 +1010,7 @@
 					"-framework",
 					"\"MBProgressHUD\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fcaimao.CaiMaoCaiPiaoNew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CaiMaoCaiPiaoNew/BaseFile/CaiMaoCaiPiaoNew-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

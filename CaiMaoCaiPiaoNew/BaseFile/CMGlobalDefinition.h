@@ -68,26 +68,7 @@
 #define APPLAUCHIMAGEURL   @"%@/user/get_startpage.htm?"
 //市场来源
 #define FROMSOURCE       @"market_appstore"
-//#define FROMSOURCE       @"market_appstores" //彩猫彩彩票渠道号
-//#define FROMSOURCE       @"ticai_appstore" //体彩足彩
-//#define FROMSOURCE       @"cps_tongbanj" //彩猫彩票Pro
-//#define FROMSOURCE       @"cps_tongbanj2" //幸运彩票
-//#define FROMSOURCE       @"cps_tongbanj3" //天天购彩
-//#define FROMSOURCE       @"cps_tongbanj4" //财猫彩票
-//#define FROMSOURCE       @"market_appstore2" //竞彩彩猫彩票
-//#define FROMSOURCE       @"market_appstore3" //体彩彩猫彩票
-//#define FROMSOURCE       @"cps_appstore1" // 彩猫购彩
-//#define FROMSOURCE       @"cps_iosyouqian" // 彩票大师
-//#define FROMSOURCE       @"jingcai_appstore" // 彩猫竞彩
-//#define FROMSOURCE       @"market_wisemedia"
-//#define FROMSOURCE       @"icelove"
-//#define FROMSOURCE       @"market_gaoqu"
-//#define FROMSOURCE       @"market_pp"
-//#define FROMSOURCE       @"market_kuaiyong"
-//#define FROMSOURCE       @"market_tongbu"
-//#define FROMSOURCE       @"market_91"
-//#define FROMSOURCE       @"market_wangyi"
-//#define FROMSOURCE       @"market_pgy"
+
 
 //设置文件名
 #define SettingFile @"Setting.plist"

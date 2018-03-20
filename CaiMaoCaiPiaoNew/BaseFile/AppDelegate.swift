@@ -50,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func signUpUmengStatistics() {
         
         let umConfig = UMAnalyticsConfig.sharedInstance()
-        // 新的彩猫彩票appkey
+        // 新的彩票appkey
         umConfig?.appKey = UMAppKey
         umConfig?.channelId = CMStoreManager.sharedInstance().getQuDao()
         

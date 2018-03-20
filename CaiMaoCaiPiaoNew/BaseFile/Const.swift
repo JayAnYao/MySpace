@@ -35,17 +35,6 @@ let APPVERURL = "%@/user/app_version.htm?"
 let APPLAUCHIMAGEURL = "%@/user/get_startpage.htm?"
 //市场来源
 let FROMSOURCE = "market_appstore"
-//#let FROMSOURCE = "market_appstores" //彩猫彩彩票渠道号
-//let FROMSOURCE = "ticai_appstore" //体彩足彩
-//let FROMSOURCE = "cps_tongbanj" //彩猫彩票Pro
-//let FROMSOURCE = "cps_tongbanj2" //幸运彩票
-//let FROMSOURCE = "cps_tongbanj3" //天天购彩
-//let FROMSOURCE = "cps_tongbanj4" //财猫彩票
-//let FROMSOURCE = "market_appstore2" //竞彩彩猫彩票
-//let FROMSOURCE = "market_appstore3" //体彩彩猫彩票
-//let FROMSOURCE = "cps_appstore1" // 彩猫购彩
-//let FROMSOURCE = "cps_iosyouqian" // 彩票大师
-//let FROMSOURCE = "jingcai_appstore" // 彩猫竞彩
 
 
 // 加载json数据
